@@ -31,4 +31,8 @@ end
   end
 end
 
+file '/rahulfile' do
+  content 'This is my second file'
+  action :create
+end
 
